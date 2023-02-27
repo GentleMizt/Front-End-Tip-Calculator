@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --strong-cyan: hsl(172, 67%, 45%);
+    --dark-cyan: hsl(183, 100%, 15%);
+    --d-gray-cyan: hsl(186, 14%, 43%);
+    --gray-cyan: hsl(184, 14%, 56%);
+    --l-gray-cyan: hsl(185, 41%, 84%);
+    --vl-gray-cyan: hsl(189, 41%, 97%);
+}
+
 html{
     font-size: 10px;
 }
@@ -26,22 +35,21 @@ main h4{
 
 .overall-parent{
     background-color: #fff;
-    max-width: 85vw;
+    max-width: 65vw;
     margin: auto;
+    display: flex;
+    padding: 1rem 1rem 1rem 1.5rem;
 }
 
-/* For removing the arrows in the input FIREFOX */
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-/* For removing the arrows in the input Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+.left{
+    border: 1px solid red;
+    flex-basis: 50%;
+    margin-right: 2rem;
 }
 
 .right{
     background-color: hsl(186, 14%, 43%);
+    border: 1px solid blue;
+    flex-basis: 50%;
+
 }
