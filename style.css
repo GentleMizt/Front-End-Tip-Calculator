@@ -47,8 +47,13 @@ main h4{
     margin-right: 2rem;
 }
 
+.bill-div{
+    display: flex;
+    background-color: var(--vl-gray-cyan);
+}
+
 .right{
-    background-color: hsl(186, 14%, 43%);
+    background-color: var(--dark-cyan);
     border: 1px solid blue;
     flex-basis: 50%;
 
