@@ -35,26 +35,38 @@ main h4{
 
 .overall-parent{
     background-color: #fff;
-    max-width: 65vw;
+    border-radius: 1rem;
+    max-width: 60vw;
     margin: auto;
     display: flex;
     padding: 1rem 1rem 1rem 1.5rem;
 }
 
 .left{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex-basis: 50%;
     margin-right: 2rem;
+}
+
+.left>span{
+    color: var(--d-gray-cyan);
 }
 
 .bill-div{
     display: flex;
     background-color: var(--vl-gray-cyan);
+    justify-content: space-between;
+    align-items: center;
+    color: var(--d-gray-cyan);
+    font-size: 2.5rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+
 }
 
 .right{
     background-color: var(--dark-cyan);
-    border: 1px solid blue;
     flex-basis: 50%;
+    border-radius: 1rem;
 
 }
