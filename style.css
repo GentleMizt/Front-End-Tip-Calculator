@@ -48,7 +48,7 @@ main h4{
     margin-right: 2rem;
 }
 
-.left>span{
+.left > span, .select-tip > span{
     color: var(--d-gray-cyan);
 }
 
