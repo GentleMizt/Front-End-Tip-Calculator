@@ -19,12 +19,12 @@ html{
 }
 
 body{
-    background-color: hsl(185, 41%, 84%); 
+    background-color: var(--l-gray-cyan);
     font-family: 'Space Mono', monospace;
 }
 
 main h4{
-    color: hsl(183, 100%, 15%);
+    color: var(--dark-cyan);
     letter-spacing: .5rem;
     font-size: 1.5rem;
     display: flex;
