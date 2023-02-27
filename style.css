@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 10px;
+}
+
 body{
-    background-color: hsl(185, 41%, 84%) 
+    background-color: hsl(185, 41%, 84%); 
+    font-family: 'Space Mono', monospace;
+}
+
+main h4{
+    color: hsl(183, 100%, 15%);
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
 }
