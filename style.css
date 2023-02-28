@@ -93,5 +93,14 @@ main h4{
     background-color: var(--dark-cyan);
     flex-basis: 50%;
     border-radius: 1rem;
+}
 
+.tip-amnt{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.tip-num{
+    
 }
