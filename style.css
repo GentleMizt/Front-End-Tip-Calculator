@@ -74,9 +74,10 @@ main h4{
     font-size: 1.5rem;
     border-radius: 1rem;
     margin: 1.3rem 0;
+    padding: 0 1rem;
 }
 
-.bill-div input{
+.bill-div input, .people-div input{
     background-color: var(--vl-gray-cyan);
     border: none;
     outline: 0;
