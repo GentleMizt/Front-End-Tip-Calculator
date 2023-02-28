@@ -127,11 +127,11 @@ main h4{
 
 .right .btn{
     width: 80%;
-    background-color:  var(--d-gray-cyan);
+    background-color:  var(--strong-cyan);
     margin: auto;
     margin-top: 14rem;
     border: none;
     text-align: center;
-    color: var(--gray-cyan);
+    color: var(--d-gray-cyan);
     padding: 1rem 0;
 }
