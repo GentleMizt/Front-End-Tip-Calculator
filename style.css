@@ -125,3 +125,13 @@ main h4{
     margin-left: -1rem;
 }
 
+.right .btn{
+    width: 80%;
+    background-color:  var(--d-gray-cyan);
+    margin: auto;
+    margin-top: 13rem;
+    border: none;
+    text-align: center;
+    color: var(--gray-cyan);
+    padding: 1rem 0;
+}
