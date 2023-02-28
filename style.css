@@ -23,6 +23,18 @@ body{
     font-family: 'Space Mono', monospace;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 main h4{
     color: var(--dark-cyan);
     letter-spacing: .5rem;
@@ -60,9 +72,21 @@ main h4{
     align-items: center;
     color: var(--d-gray-cyan);
     font-size: 1.5rem;
-    padding: .5rem 1rem;
     border-radius: 1rem;
     margin: 1.3rem 0;
+}
+
+.bill-div input{
+    background-color: var(--vl-gray-cyan);
+    border: none;
+    outline: 0;
+    width: 90%;
+    padding: .5rem 1rem;
+    text-align: right;
+    color: var(--d-gray-cyan);
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+
 }
 
 .select-grid{
