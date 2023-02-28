@@ -44,8 +44,8 @@ main h4{
 
 .left{
     /* border: 1px solid red; */
-    flex-basis: 50%;
-    margin-right: 2rem;
+    flex-basis: 48%;
+    margin-right: 3rem;
 }
 
 .left > span, .select-tip > span{
@@ -66,6 +66,24 @@ main h4{
 
 .select-grid{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.select-grid div{
+    border-radius: .6rem;
+    padding: 1.7rem .7rem;
+}
+.gr-1{
+    color: #fff;
+    background-color: var(--dark-cyan);
+}
+
+.gr-2{
+    color: var(--d-gray-cyan);
+    background-color: var(--vl-gray-cyan);
+    border-color: var(--d-gray-cyan);
 }
 
 .right{
