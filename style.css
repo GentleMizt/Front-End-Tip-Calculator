@@ -48,8 +48,9 @@ main h4{
     margin-right: 3rem;
 }
 
-.left > span, .select-tip > span{
+.left > span, .select-tip > span, .pple-span{
     color: var(--d-gray-cyan);
+    font-size: 1.2rem;
 }
 
 .bill-div, .people-div{
@@ -58,7 +59,7 @@ main h4{
     justify-content: space-between;
     align-items: center;
     color: var(--d-gray-cyan);
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: .5rem 1rem;
     border-radius: 1rem;
     margin: 1.3rem 0;
