@@ -52,13 +52,13 @@ main h4{
     color: var(--d-gray-cyan);
 }
 
-.bill-div{
+.bill-div, .people-div{
     display: flex;
     background-color: var(--vl-gray-cyan);
     justify-content: space-between;
     align-items: center;
     color: var(--d-gray-cyan);
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: .5rem 1rem;
     border-radius: 1rem;
     margin: 1.3rem 0;
