@@ -95,7 +95,7 @@ main h4{
     border-radius: 1rem;
 }
 
-.tip-amnt{
+.tip-amnt, .total{
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
@@ -124,3 +124,4 @@ main h4{
 .tip-num span, .total-num span{
     margin-left: -1rem;
 }
+
