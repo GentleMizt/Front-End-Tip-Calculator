@@ -3,6 +3,7 @@
     const tipPerPerson = document.getElementById('tip-amnt');
     const totalPerPerson = document.getElementById('total-amnt');
     const tips = document.querySelectorAll('.tips');
+    const tipCustom = document.getElementById('tip-custom');
 
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
