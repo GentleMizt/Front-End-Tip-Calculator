@@ -6,7 +6,9 @@
 
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
-    
+    tips.forEach(function(val){
+        val.addEventListener('click', handleClick);
+    })
 
 
 
@@ -26,4 +28,8 @@
     function ppleInpFunc(){
         ppleValue = parseFloat(ppleInp.value);
         console.log(ppleValue);
+    }
+
+    function handleClick(){
+        
     }
