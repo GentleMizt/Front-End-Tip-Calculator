@@ -10,6 +10,7 @@
     tips.forEach(function(val){
         val.addEventListener('click', handleClick);
     })
+    tipCustom.addEventListener('input', tipInpFunc);
 
 
 
@@ -29,6 +30,15 @@
 
     function ppleInpFunc(){
         ppleValue = parseFloat(ppleInp.value);
+        calculateTip();
+    }
+
+    function tipInpFunc(){
+        tipValue = parseFloat(tipCustom.value / 100);
+
+        tips.forEach(function (val){
+            val.classList.remove('active');
+        })
         calculateTip();
     }
 
