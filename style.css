@@ -177,10 +177,7 @@ main h4{
     transition: .3s;
 }
 
-.active{
-    background-color: var(--l-gray-cyan);
- 
-}
+
 
 
 
