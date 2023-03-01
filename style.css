@@ -100,7 +100,7 @@ main h4{
     font-size: 1.6rem;
 }
 
-.select-grid div{
+.select-grid .gr-1{
     border-radius: .6rem;
     padding: 1.7rem .7rem;
 }
@@ -111,23 +111,33 @@ main h4{
     transition: .3s;
 }
 
-.gr-1:hover, .gr-2:hover, .active{
+.gr-1:hover, .gr-2:hover, .active, .select-grid input:hover{
     background-color: var(--strong-cyan);
     color: var(--dark-cyan);
 }
 
 .gr-2{
     color: var(--d-gray-cyan);
-    background-color: var(--vl-gray-cyan);
+    background-color: var(--l-gray-cyan);
     border-color: var(--d-gray-cyan);
     transition: .3s;
 }
 
 .select-grid input{
-    background-color: var(--vl-gray-cyan);
+    background-color: var(--l-gray-cyan);
     text-align: center;
-    width: 30%;
+    font-size: 1.3rem;
+    color: var(--d-gray-cyan);
+    font-weight: bolder;
+    border: none;
+    border-color: var(--d-gray-cyan);
+    outline: none;
+    width: 100%;
+    padding: 1.7rem .7rem;
+    transition: .3s;
+
 }
+
 
 .right{
     background-color: var(--dark-cyan);
