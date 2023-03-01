@@ -140,6 +140,10 @@ main h4{
 
 }
 
+.pple-span{
+    display: flex;
+    justify-content: space-between;
+}
 .error{
     color: red;
     display: none;
