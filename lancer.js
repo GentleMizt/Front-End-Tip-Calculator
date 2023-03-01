@@ -6,8 +6,9 @@
 
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
-    tips.forEach(function(val){
-        val.addEventListener('click', handleClick);
+    tips.forEach(function(tip){
+        tip.addEventListener('click', handleClick);
+        console.log(tip);
     })
 
 
@@ -30,6 +31,12 @@
         console.log(ppleValue);
     }
 
-    function handleClick(){
-        
+    function handleClick(event){
+        tips.forEach(function (tip){
+            // tip.classList.remove('.active');
+            // if (event.target.innerHTML == tip.innerHTML) {
+            //     tip.classList.add('.active');      
+            // }
+            // console.log(tip);
+        });
     }
