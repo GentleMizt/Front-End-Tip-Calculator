@@ -4,6 +4,7 @@
     const totalPerPerson = document.getElementById('total-amnt');
     const tips = document.querySelectorAll('.tips');
     const tipCustom = document.getElementById('tip-custom');
+    const resetBtn = document.getElementById('reset');
 
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
@@ -11,7 +12,7 @@
         val.addEventListener('click', handleClick);
     })
     tipCustom.addEventListener('input', tipInpFunc);
-
+    resetBtn.addEventListener('click', reset);
 
 
     billInp.value = '0.0';
@@ -61,4 +62,10 @@
             tipPerPerson.innerHTML = tipAmount.toFixed(2);
             totalPerPerson.innerHTML = total.toFixed(2);
         }
+    }
+
+    function reset(){
+        billInp.value = '0.0';
+        ppleInp.value = '1';
+        tipPerPerson
     }
