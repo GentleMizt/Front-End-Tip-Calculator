@@ -48,7 +48,8 @@ main h4{
 .overall-parent{
     background-color: #fff;
     border-radius: 1rem;
-    max-width: 60vw;
+    width: 60vw;
+    min-width: 360px;
     margin: 3rem auto 0 auto;
     display: flex;
     padding: 2.5rem 2.5rem 2.5rem 3.5rem;
@@ -179,5 +180,9 @@ main h4{
 
 /* MEDIA QUERIES */
 @media(max-width: 450px){
-    
+    .overall-parent{
+        border: 1px solid red;
+        flex-direction: column;
+        width: 100vw;
+    }
 }
