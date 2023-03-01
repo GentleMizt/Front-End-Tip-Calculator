@@ -184,6 +184,7 @@ main h4{
     .overall-parent{
         flex-direction: column;
         width: 100vw;
+        padding: 3rem;
     }
     
     .left{
