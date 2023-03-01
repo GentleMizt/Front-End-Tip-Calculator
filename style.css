@@ -104,11 +104,17 @@ main h4{
     border-radius: .6rem;
     padding: 1.7rem .7rem;
 }
+
 .gr-1{
     color: #fff;
     background-color: var(--dark-cyan);
+    transition: .3s;
 }
 
+.gr-1:hover{
+    background-color: var(--strong-cyan);
+    color: var(--dark-cyan);
+}
 .gr-2{
     color: var(--d-gray-cyan);
     background-color: var(--vl-gray-cyan);
