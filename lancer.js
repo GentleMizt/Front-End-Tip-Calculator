@@ -66,6 +66,11 @@
 
     function reset(){
         billInp.value = '0.0';
+        billInpFunc();
         ppleInp.value = '1';
-        tipPerPerson
+        ppleInpFunc();
+        tipCustom.value = ''
+        tips.forEach(function(val){
+            val.classList.remove('active');
+        })
     }
