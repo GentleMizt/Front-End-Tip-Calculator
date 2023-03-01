@@ -2,12 +2,12 @@
     const ppleInp = document.querySelector('.ppleInp');
     const tipPerPerson = document.getElementById('tip-amnt');
     const totalPerPerson = document.getElementById('total-amnt');
-    const tips = document.querySelectorAll('.gr-1');
+    const tips = document.querySelectorAll('.tips');
 
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
-    tips.forEach(function(tip){
-        tip.addEventListener('click', handleClick);
+    tips.forEach(function(val){
+        val.addEventListener('click', handleClick);
     })
 
 
@@ -31,12 +31,10 @@
     }
 
     function handleClick(event){
-        tips.forEach(function (tip){
-            console.log(event);
-            // tip.classList.remove('.active');
-            // if (event.target.innerHTML == tip.innerHTML) {
-            //     tip.classList.add('.active');      
-            // }
-            // console.log(tip);
+        tips.forEach(function(val){
+            val.classList.remove('.active');
+            if(val.innerHTML == event.target.innerHTML){
+                val.classList.add('.active');
+            }
         });
     }
