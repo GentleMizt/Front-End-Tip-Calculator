@@ -111,7 +111,7 @@ main h4{
     transition: .3s;
 }
 
-.gr-1:hover, .gr-2:hover{
+.gr-1:hover, .gr-2:hover, .active{
     background-color: var(--strong-cyan);
     color: var(--dark-cyan);
 }
@@ -175,6 +175,11 @@ main h4{
 .right .btn:hover{
     background-color: var(--l-gray-cyan);
     transition: .3s;
+}
+
+.active{
+    background-color: var(--l-gray-cyan);
+ 
 }
 
 
