@@ -121,6 +121,7 @@ main h4{
     background-color: var(--l-gray-cyan);
     border-color: var(--d-gray-cyan);
     transition: .3s;
+    border-radius: .6rem;
 }
 
 .select-grid input{
@@ -135,6 +136,7 @@ main h4{
     width: 100%;
     padding: 2.1rem .7rem;
     transition: .3s;
+    border-radius: .6rem;
 
 }
 
