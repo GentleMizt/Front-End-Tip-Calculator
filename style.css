@@ -111,7 +111,7 @@ main h4{
     transition: .3s;
 }
 
-.gr-1:hover, .gr-2:hover, .active{
+.gr-1:hover, .gr-2:hover, .active, .select-grid input:hover{
     background-color: var(--strong-cyan);
     color: var(--dark-cyan);
 }
