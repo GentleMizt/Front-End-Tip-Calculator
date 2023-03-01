@@ -125,7 +125,8 @@ main h4{
 
 .select-grid input{
     background-color: var(--vl-gray-cyan);
-
+    text-align: center;
+    width: 30%;
 }
 
 .right{
