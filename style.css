@@ -138,6 +138,10 @@ main h4{
 
 }
 
+.error{
+    border: red;
+    display: none;
+}
 
 .right{
     background-color: var(--dark-cyan);
