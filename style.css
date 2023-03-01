@@ -111,14 +111,16 @@ main h4{
     transition: .3s;
 }
 
-.gr-1:hover{
+.gr-1:hover, .gr-2:hover{
     background-color: var(--strong-cyan);
     color: var(--dark-cyan);
 }
+
 .gr-2{
     color: var(--d-gray-cyan);
     background-color: var(--vl-gray-cyan);
     border-color: var(--d-gray-cyan);
+    transition: .3s;
 }
 
 .right{
