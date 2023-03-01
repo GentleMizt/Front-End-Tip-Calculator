@@ -49,7 +49,7 @@ main h4{
     background-color: #fff;
     border-radius: 1rem;
     width: 60vw;
-    min-width: 360px;
+    min-width: 300px;
     margin: 3rem auto 0 auto;
     display: flex;
     padding: 2.5rem 2.5rem 2.5rem 3.5rem;
@@ -188,9 +188,8 @@ main h4{
     .left{
         margin-right: 0;
     }
-    
-    .bill-div, .people-div{
-        /* width: 100%; */
-        border: 1px solid red;
-    }
+
+   .select-grid{
+        grid-template-columns: repeat(2, 1fr);
+   }
 }
