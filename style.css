@@ -123,6 +123,11 @@ main h4{
     transition: .3s;
 }
 
+.select-grid input{
+    background-color: var(--vl-gray-cyan);
+
+}
+
 .right{
     background-color: var(--dark-cyan);
     flex-basis: 50%;
