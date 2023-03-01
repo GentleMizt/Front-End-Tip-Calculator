@@ -174,7 +174,7 @@ main h4{
 
 .right .btn:hover{
     background-color: var(--l-gray-cyan);
-    
+    transition: .3s;
 }
 
 
