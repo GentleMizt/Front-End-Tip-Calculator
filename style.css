@@ -141,7 +141,7 @@ main h4{
 }
 
 .error{
-    border: red;
+    color: red;
     display: none;
 }
 
