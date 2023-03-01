@@ -19,6 +19,7 @@
     
     let billValue = 0;
     let ppleValue = 1;
+    let tipValue = 0.15;
 
     function billInpFunc(){
         billValue = parseFloat(billInp.value);
@@ -32,9 +33,21 @@
 
     function handleClick(event){
         tips.forEach(function(val){
-            val.classList.remove('.active');
+            val.classList.remove('active');
             if(val.innerHTML == event.target.innerHTML){
-                val.classList.add('.active');
+                val.classList.add('active');
+                tipValue = parseFloat(val.innerHTML)/100
             }
         });
+        console.log(tipValue);
+    }
+
+    function calculateTip(){
+        if (ppleValue >=1) {
+            let tipAmount = (billValue * tipValue) / ppleValue;
+            let total = (billValue * tipAmount) / ppleValue;
+
+            tipPerPerson.innerHTML = tipAmount.toFixed(2);
+            totalPerPerson.innerHTML = total.toFixed(2);
+        }
     }
