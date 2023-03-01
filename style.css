@@ -192,4 +192,11 @@ main h4{
    .select-grid{
         grid-template-columns: repeat(2, 1fr);
    }
+
+   .right{
+    padding-bottom: 2rem;
+   }
+   .right .btn{
+    margin-top: 5rem;
+   }
 }
