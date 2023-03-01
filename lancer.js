@@ -23,12 +23,12 @@
 
     function billInpFunc(){
         billValue = parseFloat(billInp.value);
-        console.log(billValue);
+        calculateTip();
     }
 
     function ppleInpFunc(){
         ppleValue = parseFloat(ppleInp.value);
-        console.log(ppleValue);
+        calculateTip();
     }
 
     function handleClick(event){
@@ -39,7 +39,7 @@
                 tipValue = parseFloat(val.innerHTML)/100
             }
         });
-        console.log(tipValue);
+        calculateTip();
     }
 
     function calculateTip(){
