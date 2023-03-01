@@ -181,7 +181,6 @@ main h4{
 /* MEDIA QUERIES */
 @media(max-width: 450px){
     .overall-parent{
-        border: 1px solid red;
         flex-direction: column;
         width: 100vw;
     }
