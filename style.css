@@ -172,6 +172,10 @@ main h4{
     font-size: 1.3rem;
 }
 
+.right .btn:hover{
+    background-color: var(--l-gray-cyan);
+    
+}
 
 
 
