@@ -184,4 +184,13 @@ main h4{
         flex-direction: column;
         width: 100vw;
     }
+    
+    .left{
+        margin-right: 0;
+    }
+    
+    .bill-div, .people-div{
+        /* width: 100%; */
+        border: 1px solid red;
+    }
 }
