@@ -7,6 +7,11 @@
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
 
+    billInp.value = '0.0';
+    ppleInp.value = '1';
+    
+    
+    
     let billValue = 0;
     let ppleValue = 1;
 
