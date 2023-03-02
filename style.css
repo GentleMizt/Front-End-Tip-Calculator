@@ -242,8 +242,12 @@ main h4{
         padding: 2rem;
     }
 
-    .pple-span label{
-        font-size: .8rem;
+    .select-grid div, .select-grid input{
+        font-size: 1.1rem;
+    }
+
+    .pple-span label, .select-tip span, .left span label{
+        font-size: .9rem;
     }
     .right{
         flex-basis: 52%;
