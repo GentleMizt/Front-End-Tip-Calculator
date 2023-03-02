@@ -5,6 +5,7 @@
     const tips = document.querySelectorAll('.tips');
     const tipCustom = document.getElementById('tip-custom');
     const resetBtn = document.getElementById('reset');
+    const error = document.querySelector('.error');
 
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
@@ -26,12 +27,21 @@
 
     function billInpFunc(){
         billValue = parseFloat(billInp.value);
+        billInp.parentNode.style.border = '2px solid hsl(172, 67%, 45%)'
         calculateTip();
     }
 
     function ppleInpFunc(){
         ppleValue = parseFloat(ppleInp.value);
-        calculateTip();
+
+        if (ppleValue < 1) {
+            error.style.display = 'flex';
+            ppleInp.parentNode.style.border = '2px solid red';
+        } else{
+            error.style.display = 'none';
+            ppleInp.parentNode.style.border = 'none';
+            calculateTip();
+        }
     }
 
     function tipInpFunc(){
