@@ -16,7 +16,7 @@
     resetBtn.addEventListener('click', reset);
 
 
-    billInp.value = '0.0';
+    // billInp.value = '0.0';
     ppleInp.value = '1';
     
     
