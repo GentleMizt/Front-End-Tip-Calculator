@@ -7,6 +7,7 @@
     const resetBtn = document.getElementById('reset');
     const error = document.querySelector('.error');
 
+    // Event Listteners handling the input and click functions
     billInp.addEventListener('input', billInpFunc);
     ppleInp.addEventListener('input', ppleInpFunc);
     tips.forEach(function(val){
@@ -20,17 +21,19 @@
     ppleInp.value = '1';
     
     
-    
+    // Testing to see if the events are being handled properly 
     let billValue = 0;
     let ppleValue = 1;
     let tipValue = 0.15;
 
+    // function for the bill input
     function billInpFunc(){
         billValue = parseFloat(billInp.value);
         billInp.parentNode.style.border = '2px solid hsl(172, 67%, 45%)'
         calculateTip();
     }
 
+    // function for the people input
     function ppleInpFunc(){
         ppleValue = parseFloat(ppleInp.value);
 
@@ -44,6 +47,7 @@
         }
     }
 
+    // function for the available tips
     function tipInpFunc(){
         tipValue = parseFloat(tipCustom.value / 100);
 
@@ -53,6 +57,7 @@
         calculateTip();
     }
 
+    // call back function for the tips event listner
     function handleClick(event){
         tips.forEach(function(val){
             val.classList.remove('active');
@@ -64,6 +69,7 @@
         calculateTip();
     }
 
+    // function that runs the calculations for getting the tip values based on given inputs.
     function calculateTip(){
         if (ppleValue >=1) {
             let tipAmount = (billValue * tipValue) / ppleValue;
@@ -75,6 +81,7 @@
         }
     }
 
+    // function for clearing the given values
     function reset(){
         billInp.value = '';
         billInpFunc();
