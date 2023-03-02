@@ -75,7 +75,7 @@
     }
 
     function reset(){
-        billInp.value = '0.0';
+        billInp.value = '';
         billInpFunc();
         billInp.parentNode.style.border = 'none'
         ppleInp.value = '1';
