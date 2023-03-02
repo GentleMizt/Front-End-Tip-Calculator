@@ -234,7 +234,7 @@ main h4{
 
 
 /* MEDIA QUERIES */
-@media(max-width: 450px){
+@media(max-width: 500px){
     .overall-parent{
         flex-direction: column;
         width: 100vw;
