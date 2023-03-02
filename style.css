@@ -237,7 +237,6 @@ main h4{
 @media(max-width:900px){
     .overall-parent{
         width: 80vw;
-        border: 1px solid red;
         min-width: 600px;
         padding: 2rem;
     }
