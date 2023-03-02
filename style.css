@@ -234,6 +234,26 @@ main h4{
 
 
 /* MEDIA QUERIES */
+@media(max-width:900px){
+    .overall-parent{
+        width: 80vw;
+        border: 1px solid red;
+        /* min-width: 660px; */
+        padding: 2rem;
+    }
+
+    .pple-span label{
+        font-size: .8rem;
+    }
+    .right{
+        flex-basis: 52%;
+    }
+
+    .tip-num, .total-num{
+        font-size: 2rem;
+    }
+}
+
 @media(max-width: 500px){
     .overall-parent{
         flex-direction: column;
