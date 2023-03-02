@@ -238,7 +238,7 @@ main h4{
     .overall-parent{
         width: 80vw;
         border: 1px solid red;
-        /* min-width: 660px; */
+        min-width: 600px;
         padding: 2rem;
     }
 
@@ -254,7 +254,7 @@ main h4{
     }
 
     .tip-num, .total-num{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
