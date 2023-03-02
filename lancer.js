@@ -77,6 +77,7 @@
     function reset(){
         billInp.value = '0.0';
         billInpFunc();
+        billInp.parentNode.style.border = 'none'
         ppleInp.value = '1';
         ppleInpFunc();
         tipCustom.value = ''
