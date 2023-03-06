@@ -234,7 +234,12 @@ main h4{
 
 
 /* MEDIA QUERIES */
-@media(max-width:900px){
+@media(min-width: 801px){
+    .overall-parent{
+        width: 85vw;
+    }
+}
+@media(max-width:800px){
     .overall-parent{
         width: 100vw;
         /* min-width: 500px; */
