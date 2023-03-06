@@ -236,8 +236,8 @@ main h4{
 /* MEDIA QUERIES */
 @media(max-width:900px){
     .overall-parent{
-        width: 80vw;
-        min-width: 500px;
+        width: 100vw;
+        /* min-width: 500px; */
         padding: 2rem;
     }
 
@@ -260,8 +260,9 @@ main h4{
 @media(max-width: 500px){
     .overall-parent{
         flex-direction: column;
-        width: 100vw;
-        padding: 5rem;
+        width: 100%;
+        max-width: 500px;
+        padding: 3.5rem;
     }
     
     .left{
